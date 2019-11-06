@@ -1,0 +1,92 @@
+.App {
+    width: 500px;
+    margin: auto;
+}
+
+form h1 {
+    font-weight: 200;
+    text-align: center;
+    color: rgb(232, 219, 218);
+    font-size: 60px;
+    margin: 10px;
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid rgb(236, 236, 236);
+
+}
+
+form input::placeholder {
+    color: #ccc;
+    font-style: italic;
+} 
+
+form button {
+    display: none;
+}
+
+.list {
+    list-style: none;
+    border: 1px solid rgb(236, 236, 236);
+    margin: 0;
+    padding: 0;
+}
+
+.list div {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 50px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.list div div {
+    display: flex;
+    align-items: center;
+}
+
+.list div li {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.complete li {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.check {
+    color: green;
+    opacity: 0;
+    padding: 5px 10px;
+}
+
+.complete .check {
+    opacity: 1;
+}
+
+.list div button {
+    background: transparent;
+    color: red;
+    outline: none;
+    border: none;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra p {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+}

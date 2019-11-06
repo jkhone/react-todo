@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background: rgb(244, 244, 244);
 }
 *,
 *::before,

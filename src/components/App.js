@@ -3,6 +3,7 @@ import { Provider } from "react-redux"
 import store from "../store"
 import Items from './Items'
 import ItemForm from './ItemForm'
+import '../styles/styles.css'
 
 function App(props) {
   return (

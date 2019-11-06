@@ -1,12 +1,3 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Ryan"
-    },
-    {
-      "name": "Mike",
-      "id": 2
-    }
-  ]
+  "items": []
 }

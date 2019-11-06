@@ -10,11 +10,13 @@ export default function(props) {
         e.preventDefault()
 
         dispatch(addItem(item))
+        setItem('')
     }
+
     return (
         <form onSubmit={handleSubmit}>
-            <h1>To-Do List</h1>
-            <input type='text' id='item' name='item' value={item} onChange={e => setItem(e.target.value)} />
+            <h1>todos</h1>
+            <input type='text' id='item' name='item' value={item} onChange={e => setItem(e.target.value)} placeholder='What needs to be done?'/>
             <button type='submit'>Submit</button>
         </form>
     )
